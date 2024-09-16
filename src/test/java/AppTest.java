@@ -6,11 +6,11 @@ public class AppTest {
     App app = new App();
     @Test
     public void addMe() {
-        assertEquals(12.0, app.addMe(11.0f,1.0f));
+        assertEquals(12.0, app.addMe(11.0f,1.0f), 0.1);
     }
 
     @Test
     public void subMe() {
-        assertEquals(3.0, app.subMe(5.0f,2.0f));
+        assertEquals(3.0, app.subMe(5.0f,2.0f), 0.1);
     }
 }
